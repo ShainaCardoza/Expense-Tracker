@@ -41,7 +41,7 @@ export default function ExpenseTracker() {
 
   return (
     <div style={{ fontFamily: "'DM Mono', 'Courier New', monospace", minHeight: "100vh", position: "relative", color: "#f0ece4", padding: "0" }}>
-      <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0 }}>
+      <div style={{ position: "fixed", top: 0, left: 0, width: "100vw", height: "100vh", zIndex: 0 }}>
         <LiquidEther
           colors={['#c8f060', '#BAFca2', '#e0f79d']}
           mouseForce={20}
