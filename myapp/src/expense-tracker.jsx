@@ -352,6 +352,8 @@ export default function ExpenseTracker() {
           .header { padding: 32px 24px 24px; }
           .form-panel, .list-panel { padding: 28px 24px; }
           .summary-card { padding: 24px; }
+          .form-input, .form-select { font-size: 16px; } /* Prevents zoom on focus */
+          .header-title { font-size: clamp(32px, 10vw, 48px); }
         }
       `}</style>
 
